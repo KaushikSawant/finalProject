@@ -42,3 +42,19 @@ margin-top: 90px;
 .tab{
   background-color: #dbe2ef;
 }
+.linkColor{
+  color: #112d4e;
+}
+.correctO{  
+  margin-bottom: 15px;
+  width: 50%;
+
+  
+}
+.incorrectO{
+  margin-bottom: 15px;
+  width: 50%;
+}
+.addNew{
+  margin:3% 0 3% 40%;
+}

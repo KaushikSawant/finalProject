@@ -1,6 +1,7 @@
 import React from "react";
 import 'bootstrap';
 import { FcAddressBook,FcDatabase } from "react-icons/fc";
+import { Link } from "react-router-dom";
 
 function TabNav(props){
     return(
@@ -15,7 +16,7 @@ function TabNav(props){
             <div className="row">
                 <div class="col"></div>
                 <div class="col"><h4 className="Thead"><FcAddressBook />Tutorials</h4></div>
-                <div class="col"><h4 className="Thead"><FcDatabase/>Examples</h4></div>
+                <div class="col"><h4 className="Thead"><FcDatabase/><Link to="/Examples"><span className="linkColor">Examples</span></Link></h4></div>
                 <div class="col"></div>
                 <div class="col"></div>
                 <div class="col"></div>

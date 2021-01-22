@@ -18,7 +18,7 @@ function Tutorial(props){
         <div className="container-fluid">
                 <Navbar />
                 <TabNav LanguageIcon={props.icon2} LanguageName={props.name} />
-            <div className="row">
+            <div className="row sticky-top">
                 <div className="col-4 mt-5">
                     <div>
                     <div class="overflow-auto con_height borderT">
