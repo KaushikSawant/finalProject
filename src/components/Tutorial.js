@@ -7,7 +7,7 @@ import { BsBook } from "react-icons/bs";
 import { FcAddressBook } from "react-icons/fc";
 import { FaLaptopCode } from "react-icons/fa";
 import Editor from './Editor'
-import { VscOutput } from "react-icons/vsc";
+import { VscOutput } from "react-icons/vsc"; 
 import { Link } from "react-router-dom";
 import TabNav from './TabNav';
 import { AiFillPropertySafety } from "react-icons/ai";

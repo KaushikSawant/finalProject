@@ -29,6 +29,7 @@ import Examples from './components/Examples'
 import AddCourse from './components/AddCourse'
 import AddQuiz from './components/AddQuiz'
 import Delete from './components/Delete'
+import Error from "./components/Error"
 
 function App(){
     return(
@@ -64,6 +65,7 @@ function App(){
             <Route path = "/AddCourse" component = {AddCourse} />
             <Route path = "/AddQuiz" component = {AddQuiz} />
             <Route path = "/Delete" component = {Delete} />
+            <Route path = "/Error" component = {Error}/>
         </Switch>
       </Router>
     );

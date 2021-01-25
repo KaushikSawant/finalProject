@@ -4,6 +4,7 @@ import 'bootstrap'
 import AddCourse2 from './AddCourse2'
 import Delete1 from './Delete1'
 
+
 const AddCourse = () => {
     const [courseContent,setCourseContent] = useState({
         "input" : "",
